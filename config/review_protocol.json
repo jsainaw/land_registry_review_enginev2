@@ -1,0 +1,71 @@
+{
+  "protocol_version": "1.0.0",
+  "review_title": "Blockchain-Based Land Registry and Land Administration Systems",
+  "primary_identifier": "RefNo",
+  "article_title_field": "Source",
+  "eligibility_criteria": [
+    {
+      "id": "land_registry_relevance",
+      "label": "Land registry / land administration relevance",
+      "include_guidance": "The study addresses blockchain or distributed ledger technology in land registration, cadastral systems, land administration, property rights records, land information systems, or directly relevant property-transfer processes.",
+      "exclude_guidance": "The study is unrelated to land/property records or land administration.",
+      "required": true
+    },
+    {
+      "id": "eligible_publication_type",
+      "label": "Eligible publication type",
+      "include_guidance": "The publication type is allowed by the review protocol.",
+      "exclude_guidance": "The publication type is explicitly disallowed by the protocol (for example, editorial or duplicate record, if the protocol excludes these).",
+      "required": true
+    },
+    {
+      "id": "relevant_research_contribution",
+      "label": "Contribution to at least one research question",
+      "include_guidance": "The study contributes evidence to at least one of RQ1-RQ4: barriers; architecture/security; governance/interoperability; or performance/viability.",
+      "exclude_guidance": "After full-text assessment, no relevant evidence contributes to any review question.",
+      "required": true
+    }
+  ],
+  "research_questions": {
+    "RQ1": "Technical, regulatory, interoperability, adoption and deployment constraints affecting blockchain adoption in land registries.",
+    "RQ2": "Hybrid architecture and integration, including Ethereum/EVM, on-chain/off-chain storage, IPFS/databases, validation, security and efficiency.",
+    "RQ3": "Governance, legal validity, compliance, LADM/ISO 19152, standards and integration with legacy cadastral systems.",
+    "RQ4": "Scalability, throughput, latency, consensus overhead, transaction costs and performance under realistic registry workloads."
+  },
+  "quality_appraisal": [
+    {
+      "id": "clear_objectives",
+      "label": "Research objective or question is clear"
+    },
+    {
+      "id": "context_described",
+      "label": "System, legal, institutional or study context is described"
+    },
+    {
+      "id": "method_described",
+      "label": "Methods or design are sufficiently described"
+    },
+    {
+      "id": "evidence_traceable",
+      "label": "Claims are supported by traceable evidence"
+    },
+    {
+      "id": "evaluation_appropriate",
+      "label": "Evaluation or argument is appropriate to the study type"
+    },
+    {
+      "id": "limitations_reported",
+      "label": "Limitations or threats to validity are discussed"
+    },
+    {
+      "id": "reproducibility",
+      "label": "Data, implementation details, metrics or procedures are sufficiently reproducible"
+    }
+  ],
+  "decision_policy": {
+    "unknown_means": "Needs human review",
+    "do_not_exclude_for_full_text_unavailable": true,
+    "ai_decisions_are_provisional": true,
+    "human_confirmation_required": true
+  }
+}
